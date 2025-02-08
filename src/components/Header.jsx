@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
     return (
-        <header className="relative h-screen w-full flex flex-col">
+        <header className="relative p-5 h-screen w-full flex flex-col">
 
             <Navbar />
 
