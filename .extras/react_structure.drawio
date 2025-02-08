@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="m6JPBGRYX87pgcBvvBpe" name="Page-1">
+        <mxGraphModel dx="1137" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Vite React Project" style="swimlane;rounded=1;gradientColor=none;swimlaneFillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="620" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="React-router-dom's Browser Router" style="swimlane;rounded=1;swimlaneLine=1;swimlaneFillColor=#CCCCCC;startSize=23;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="30" width="600" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Home Page (Path : /)" style="swimlane;rounded=1;glass=0;swimlaneFillColor=#E6E6E6;" parent="3" vertex="1">
+                    <mxGeometry x="10" y="30" width="280" height="310" as="geometry"/>
+                </mxCell>
+                <UserObject label="Header" treeRoot="1" id="7">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="4" vertex="1">
+                        <mxGeometry x="10" y="30" width="260" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="About Section" treeRoot="1" id="8">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="4" vertex="1">
+                        <mxGeometry x="10" y="100" width="260" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Staff Members Section" treeRoot="1" id="9">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="4" vertex="1">
+                        <mxGeometry x="10" y="170" width="260" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Footer" treeRoot="1" id="10">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="4" vertex="1">
+                        <mxGeometry x="10" y="240" width="260" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="6" value="NotFound Page (Path : *)" style="swimlane;rounded=1;shadow=0;swimlaneFillColor=#E6E6E6;" parent="3" vertex="1">
+                    <mxGeometry x="310" y="30" width="280" height="140" as="geometry"/>
+                </mxCell>
+                <UserObject label="Navbar" treeRoot="1" id="11">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="6" vertex="1">
+                        <mxGeometry x="10" y="30" width="260" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Not Found text" treeRoot="1" id="12">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="6" vertex="1">
+                        <mxGeometry x="10" y="70" width="260" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
