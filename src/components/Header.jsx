@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SOCIAL_MEDIA_PAGES } from "../assets/HomePageData";
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -6,10 +8,17 @@ const Header = () => {
 
             <Navbar />
 
-            {/* Header Title and subtitle */}
-            <div className="px-10 grow flex flex-col justify-center gap-4 text-center text-white shadow-white">
+            {/* Header Title, subtitle and social media icons */}
+            <div className="px-10 grow flex flex-col justify-center items-center gap-4 text-center text-white shadow-white">
                 <h1 className="text-5xl font-bold">Innovating for a Better Tomorrow.</h1>
-                <h2 className="text-xl font">We are a student-led community tackling real-world challenges through creative solutions and technology.</h2>
+                <h2 className="text-xl">We are a student-led community tackling real-world challenges through creative solutions and technology.</h2>
+                <div className="flex gap-2">
+                    {SOCIAL_MEDIA_PAGES.map(({ url, icon }) => (
+                        <a href={url}>
+                            <FontAwesomeIcon icon={icon} className="text-white" size="2xl" />
+                        </a>
+                    ))}
+                </div>
             </div>
 
             {/* Header Background */}

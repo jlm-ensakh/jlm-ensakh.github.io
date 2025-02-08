@@ -1,5 +1,5 @@
-import { faInstagram, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SOCIAL_MEDIA_PAGES } from "../assets/HomePageData";
 
 const Footer = () => {
     return (
@@ -18,10 +18,12 @@ const Footer = () => {
                 <div className="sm:hidden w-full border-t border-slate-600"></div>
 
                 {/* Scoial media icons */}
-                <div className="flex gap-5">
-                    <a href="#"><FontAwesomeIcon icon={faLinkedin} className="text-white" size="xl" /></a>
-                    <a href="#"><FontAwesomeIcon icon={faInstagram} className="text-white" size="xl" /></a>
-                    <a href="#"><FontAwesomeIcon icon={faYoutube} className="text-white" size="xl" /></a>
+                <div className="flex gap-2">
+                    {SOCIAL_MEDIA_PAGES.map(({url, icon}) => (
+                        <a href={url}>
+                            <FontAwesomeIcon icon={icon} className="text-white" size="xl" />
+                        </a>
+                    ))}
                 </div>
 
             </div>
