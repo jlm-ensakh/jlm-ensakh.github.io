@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="flex gap-2">
                     {SOCIAL_MEDIA_PAGES.map(({ url, icon }, idx) => (
                         <a key={idx} href={url}>
-                            <FontAwesomeIcon icon={icon} className="text-white" size="2xl" />
+                            <FontAwesomeIcon icon={icon} className="text-white hover:text-gray-200 transition-color duration-200" size="2xl" />
                         </a>
                     ))}
                 </div>
