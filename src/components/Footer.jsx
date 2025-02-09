@@ -19,8 +19,8 @@ const Footer = () => {
 
                 {/* Scoial media icons */}
                 <div className="flex gap-2">
-                    {SOCIAL_MEDIA_PAGES.map(({url, icon}) => (
-                        <a href={url}>
+                    {SOCIAL_MEDIA_PAGES.map(({url, icon}, idx) => (
+                        <a key={idx} href={url}>
                             <FontAwesomeIcon icon={icon} className="text-white" size="xl" />
                         </a>
                     ))}

@@ -13,8 +13,8 @@ const Header = () => {
                 <h1 className="text-5xl font-bold">Innovating for a Better Tomorrow.</h1>
                 <h2 className="text-xl">We are a student-led community tackling real-world challenges through creative solutions and technology.</h2>
                 <div className="flex gap-2">
-                    {SOCIAL_MEDIA_PAGES.map(({ url, icon }) => (
-                        <a href={url}>
+                    {SOCIAL_MEDIA_PAGES.map(({ url, icon }, idx) => (
+                        <a key={idx} href={url}>
                             <FontAwesomeIcon icon={icon} className="text-white" size="2xl" />
                         </a>
                     ))}
