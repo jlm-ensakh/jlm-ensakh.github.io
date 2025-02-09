@@ -3,7 +3,7 @@ import { SOCIAL_MEDIA_PAGES } from "../assets/HomePageData";
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-900">
+        <footer className="bg-zinc-900">
 
             <div className="p-5 mx-auto max-w-full md:max-w-4xl xl:max-w-6xl flex flex-col sm:flex-row justify-between items-center gap-5">
 
