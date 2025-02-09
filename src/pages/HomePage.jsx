@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { STAFF_MEMBERS } from "../assets/HomePageData";
 import SectionContainer from "../components/SectionContainer";
-import StaffMember from "../components/StaffMember";
+import { StaffMemberV1, StaffMemberV2, StaffMemberV3 } from "../components/StaffMember";
 
 const HomePage = () => {
     return (
@@ -36,7 +36,7 @@ const HomePage = () => {
                 <h1 className="mb-10 text-center text-4xl text-slate-700 font-bold">Staff Members</h1>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
-                    {STAFF_MEMBERS.map((staff_member_data, idx) => <StaffMember key={idx} {...staff_member_data} />)}
+                    {STAFF_MEMBERS.map((staff_member_data, idx) => <StaffMemberV3 key={idx} {...staff_member_data} />)}
                 </div>
             </SectionContainer>
             {/* Staff Members section | ends */}
